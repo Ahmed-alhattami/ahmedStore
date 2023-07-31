@@ -276,3 +276,30 @@ padding: 20px;
                 border-radius:20px ;
                 }
     /* مينيو سكشن  */
+ /* المواقيت */
+ .daytime{
+ background: #ffebeb; 
+ color: rgb(39, 38, 38);
+ text-align: center;
+}
+.daytime-items{
+padding-top: 30px;   
+ display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height:40vh;
+}
+.daytime-item{
+    text-align: center;
+    justify-self: auto;
+}
+.daytime-item h3{
+    width:3px;
+     margin: auto;
+}
+.daytime-item p{
+    PADDING-LEFT: 45PX;
+}
+
+
+ /* المواقيت */
