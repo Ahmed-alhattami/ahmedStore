@@ -591,7 +591,7 @@ margin-left: 70px;
 margin-bottom: 20px;      
   }
   .about .daytime .menu .gallary .contact .daytime-items .footer .navbar{
-     width: 600px
+     width: 700px
   }
  
  
@@ -629,7 +629,69 @@ display: none;   }
  
   
  
+.contact{
+    padding-top: 30PX;
 
+
+}
+ .contact .container{
+ max-width: 500PX;
+
+}
+.contact-content{
+   justify-content: space-between;
+    align-items: center;
+}
+.contact-info{
+    width:100%;
+}
+.contact-info div{
+     line-height: 1.7;
+    color: #5c5b5b;
+    
+}
+.contact-info h3{
+ color: #353333;
+ font-size: 10px;
+
+}
+.contact-info p i{
+   
+    color: #e4b95b;
+     
+}
+.fa-brands{
+    color: #ffffff;
+    background: #434161;
+    padding: 10px;
+   border-radius: 50%;
+}
+.fa-brands:hover{
+    color: #fafaff;
+    background: #c9982e;
+   }
+form{
+    width: 30%
+ }
+input,
+textarea{
+    display: block;
+      border: none;
+    border-radius: 25px;
+    background: #eeeded;
+}
+.btn4{
+    padding: 1px 2px;
+    background: #c9982e;
+    border: none;
+    color: #ffffff;
+    border-radius: 15px;
+ 
+text-align: center;
+cursor: pointer;
+}
+ 
+     /* التواصل  */
 
 
 }
