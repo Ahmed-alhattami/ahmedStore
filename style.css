@@ -2,12 +2,21 @@
     scroll-behavior: smooth;
  }
 *{
+
+
+
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
-box-sizing: 0;
+    
+    box-sizing: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     height: 100vh;
     background:url("https://wallpapercave.com/wp/wp1874155.jpg") center center/cover no-repeat;
@@ -131,7 +140,7 @@ font-size: 19px;
     }
 
 
-    /* abour start */
+    /* about start */
     .about{
         height: 90vh;
         background:#ebe6ebde;
@@ -213,7 +222,7 @@ margin-bottom: 60px;
     text-align: center;
     justify-content: space-around;
   }
- .ITEMMS img{
+.ITEMMS img{
      width: 130px;
     }
     .del{
@@ -388,8 +397,8 @@ padding: 37px;
   border-radius: 50%;
 }
 .fa-brands:hover{
-    color: #434161;
-    background: #41403f;
+    color: #fafaff;
+    background: #c9982e;
     padding: 13px;
   margin-right: 1px;
   border-radius: 50%;
@@ -416,6 +425,7 @@ textarea{
     border-radius: 15px;
  
 text-align: center;
+cursor: pointer;
 }
 .btn4:hover{
     padding: 10px 20px;
@@ -427,3 +437,150 @@ text-align: center;
 text-align: center;
 }
      /* التواصل  */
+     /* الفوتر  */
+     FOOTER{
+        background-color: #434161;
+        color: #ffffff;
+        height: 10VH;
+        text-align: center;
+        font-size: 15PX;
+   }
+   FOOTER P A{
+    color: #fffbe9;
+margin-left: 10PX;   
+ 
+}
+     /* الفوتر  */
+   FOOTER P {
+    color: #fffbe9;
+    padding: 20px 0px;
+ }
+ FOOTER P a{
+    color: #c1c1cc;
+    font-weight: bold;
+    text-decoration: none;
+ }
+     /* الفوتر  */
+
+     /* الميديا كويري ************** */
+     /* medium screen   + tablet */
+     @media (max-width:1000px) {
+        img{
+
+             width: 80px;
+            margin-left: 50px;
+        }
+        .navbar ul li{
+            justify-content:space-around;
+            margin-right: 20px;
+         }
+         .navbar ul li a{
+            text-decoration: none;
+            padding: 5px;
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+            box-sizing: border-box;
+            font-size: 20px;
+             
+        }
+        .content h1{
+            margin-bottom: 10px;
+            color: rgb(243, 246, 248);
+            font-weight:bold;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+
+        header{
+            height: 100vh;
+            background:url("https://wallpapercave.com/wp/wp1874155.jpg") center center/cover no-repeat;
+            position: relative;  
+        
+        }   
+        .about{
+padding: 10px 5px;
+        height: auto;
+        background:#ebe6ebde;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .about-content div p{
+         font-family:  'Times New Roman', Times, serif;
+             color: #353333;
+             padding-left: 20px;
+        }
+        .about-content img{
+            width: 250px;
+            height: 170px;
+        }
+        .ITEMMS img{
+            width: 100px;
+            align-items: center;
+
+        }
+        div .q1{
+            width: 60%;
+          }
+        .sty1{
+             width:90vw;
+             height: auto;
+             
+        }
+        .offers{
+            width:90%;
+         
+        }
+        .offers .container{
+            justify-content: center;
+            background: #000;
+         
+        }
+        .q1{
+
+width: 1000px;     
+
+}
+        .sty1 h1{
+margin-left: 50px;
+font-size: 20px;      
+  }
+  .menu-items{
+    background: #ffffff;
+    display: block;
+    margin-top: 30px;
+
+}
+
+.menu-item{
+    background: #ffffff;
+    display: block;
+    margin-left: 54px;
+  
+ }
+.menu-item img{
+    height: 98px;
+ }
+       
+.menu-item div h2,p{
+margin-left: 70px; 
+ }
+.menu-item div h2{
+ margin-top: 10px;
+}
+       .contact-content{
+         margin-left: 20px;
+ 
+        }
+
+    
+             
+        }
+
+     /* mobile screen    */
+/* @media (max-width:600px) {
+    
+} */
+         
+     /* الميديا كويري ************** */
