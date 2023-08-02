@@ -581,22 +581,54 @@ margin-left: 70px;
      /* mobile screen    */
 
      @media (max-width:600px){
-        body{
-            width: 100vw;
-        }
+       
         .navbar{
-            height: 100px;
-             flex-direction: column;
+              flex-direction: column;
          }
+        
         .navbar img{
             margin-top: 20px;
 margin-bottom: 20px;      
   }
-  /* FOOTER{
-    background-color: #aeaccc;
-      width: 1200px;
- } */
+  .about .daytime .menu .gallary .contact .daytime-items .footer .navbar{
+     width: 600px
+  }
+ 
+ 
+
+
+
+  .daytime{
+    background: #e9eb81; 
+   color: rgb(39, 38, 38);
+   text-align: center;
+  }
+  .daytime-items{
+    display: flex;
+     }
+  .daytime-item{
+      text-align: center;
+width: 100px;  
+ }
+  .daytime-item h3{
+    padding-left: 10px;
+    font-size: 25px;
+    display: none; 
+    }
+    .daytime-item img{
+        width: 40px;
+    }
+  .daytime-item p{
+display: none;   }
   
+
+
+
+
+
+ 
+  
+ 
 
 
 
